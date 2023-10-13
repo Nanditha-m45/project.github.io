@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Contact-Me</title>
+    <style>
+      
+        fieldset{
+            background: url(bg1.jpg);
+            margin-top: 150px;
+            margin-left: 100px;
+            margin-right: 100px;
+            border-radius:20px;
+        }
+        body{
+            background:url() ;
+            
+        }
+        button{
+            border-radius: 15px;
+        }
+        button:hover{
+            color: purple;
+        }
+
+
+    </style>
+</head>
+<body>
+        
+   <center><fieldset>
+        <legend> <b>Contact Information</b></legend>
+    <form action="mess.html">
+ 
+    <label for="uname">UserName</label>
+        <span style="color: red;">*</span><br>
+    <input type="text" required placeholder="ex-Nanditha" pattern="[a-z A-Z ]{4-9}" id="uname" name="uname"><br><br>
+
+   <label for="pw">Password</label>
+   <span style="color: red;">*</span><br>
+    <input type="password" required id="pw" name="pw"><br><br>
+
+   <label for="cd">Contact number</label>
+    <span style="color: red;">*</span><br>
+    <input type="text" required pattern="[6-9]{1}[0-9]{9}" id="cd" name="cd"><br><br>
+
+ 
+
+<button>Submit</button>
+
+</fieldset></center> 
+    
+</body>
+</html>
